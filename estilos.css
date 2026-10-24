@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+header {
+    background-color: lightblue;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: lightgreen;
+    margin: 15px;
+    padding: 20px;
+}
+
+article {
+    margin: 15px;
+    padding: 20px;
+}
+
+#articulo1 {
+    background-color: lightyellow;
+}
+
+#articulo2 {
+    background-image: url("https://picsum.photos/800/400");
+    background-size: cover;
+    color: white;
+}
+
+#enlaces {
+    background-color: lavender;
+}
+
+footer {
+    background-color: lightsalmon;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+#alumno {
+    text-align: center;
+}
+
+#catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+#catalogo article {
+    background-color: white;
+    border: 1px solid gray;
+    width: 40%;
+}
